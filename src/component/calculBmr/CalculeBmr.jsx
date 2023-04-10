@@ -65,7 +65,7 @@ const Bmr = () => {
       };
 
       return (
-            <body>
+            <div className='container-analizer'>
                   <form
                         onSubmit={(e) => {
                               e.preventDefault();
@@ -127,7 +127,7 @@ const Bmr = () => {
                         </p>
                         <p className="resultat ">votre imc est de : {imc.imc}</p>
                   </div>
-            </body>
+            </div>
       );
 };
 
