@@ -1,0 +1,123 @@
+@import '../../sass/typographie.scss';
+
+body {
+
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    form {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+
+        input {
+            display: flex;
+            width: 20%;
+            border: 1px solid $color-input;
+            border-radius: 3px;
+            font-family: $police-text;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        button {
+            font-size: 15px;
+            font-family: $police-text;
+            color: $color_tertiaire-logo;
+            border-radius: 3px;
+            box-shadow: 0px 2px 27px 8px rgba(0, 0, 0, 0.41) inset;
+            -webkit-box-shadow: 0px 2px 27px 8px rgba(0, 0, 0, 0.41) inset;
+            -moz-box-shadow: 0px 2px 27px 8px rgba(0, 0, 0, 0.41) inset;
+            background: linear-gradient(159deg, #f1bc00, #b6f100, #46f100);
+        }
+    }
+
+    .container-value {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .bmr-text {
+            font: {
+                weight: 500;
+                family: $police-text;
+                size: 18px;
+            }
+
+            padding: 15px;
+        }
+    }
+
+    .css-b62m3t-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .css-13cymwt-control {
+            font-family: $police-text;
+            width: 70%;
+
+            font: {
+                size: 18px;
+                weight: 500;
+                family: $police-text;
+                color: $color-input;
+            }
+        }
+
+        .css-1fdsijx-ValueContainer {
+            width: 500px;
+            max-width: 500px;
+            size: 18px;
+
+            font: {
+                weight: 500;
+                family: $police-text;
+            }
+
+            background: #f1bc00;
+            background: linear-gradient(354deg, #f1bc00 40%, #46f100 80%);
+            background: -webkit-linear-gradient(354deg, #f1bc00 40%, #46f100 80%);
+            background: -moz-linear-gradient(354deg, #f1bc00 40%, #46f100 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    .css-1nmdiq5-menu {
+        font-family: $police-text;
+        background: #f1bc00;
+        background: linear-gradient(354deg, #f1bc00 40%, #46f100 80%);
+        background: -webkit-linear-gradient(354deg, #f1bc00 40%, #46f100 80%);
+        background: -moz-linear-gradient(354deg, #f1bc00 40%, #46f100 80%);
+    }
+
+    .resultat {
+        max-width: 500px;
+        width: 400px;
+        height: auto;
+        display: flex;
+
+        font: {
+            weight: 500;
+            family: $police-text;
+            size: 18px;
+        }
+
+        padding: 15px;
+        flex-direction: column
+    }
+
+    .container-imc_resultat {
+        padding: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

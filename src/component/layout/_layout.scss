@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body,
+  html {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+  
+    // margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+  }
+  
+  #root {
+    width: 100%;
+    height: 100%;
+  }
+
+  .layout{
+    width: 1240px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }

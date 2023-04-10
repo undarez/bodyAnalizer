@@ -1,0 +1,67 @@
+[   
+    
+    {
+        "name":"Obésité de classe III (très grave)",
+        "value":{
+            "max":40.9,
+            "min":40
+        },
+        "type":"Endomorphe"
+    },
+    {
+        "name":"Obésité de classe II (sévère)",
+        "value":{
+            "min":35,
+            "max":39.9
+        },
+        "type":"Endomorphe"
+    },
+    {
+        "name":"Obésité de classe I (modérée)",
+        "value":{
+            "min":30,
+            "max":34.9
+        },
+        "type":"Endomorphe"
+    },
+    {
+        "name":"Surpoids",
+        "value":{
+            "min":25,
+            "max":29.9
+        },
+        "type":"Mesomorphe"
+    },
+    {
+        "name":"Corpulence normale (poids idéal)",
+        "value":{
+            "min":18.5,
+            "max":24.9
+        },
+        "type":"Mesomorphe"
+    },
+    {
+        "name":"Insuffisance pondérale légère",
+        "value":{
+            "min":17.5,
+            "max":18.49
+        },
+        "type":"Ectomorphe"
+    },
+    {
+        "name":"Insuffisance pondérale visible (anorexie modérée)",
+        "value":{
+            "min":15.50,
+            "max":17.49
+        },
+        "type":"Ectomorphe"
+    },
+    {
+        "name":"Obésité de classe I (modérée)",
+        "value":{
+            "min":15,
+            "max":15.49
+        },
+        "type":"Ectomorphe"
+    }
+]
